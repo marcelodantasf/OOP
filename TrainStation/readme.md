@@ -1,5 +1,14 @@
-Trabalho: Estação Ferroviária com Java |
-Prazo: 22/03/24
+# Trabalho: Estação Ferroviária com Java
+
+## Dupla:
+
+Marcelo Antônio Dantas Filho e Larissa Santiago Albino
+
+### Prazo:
+
+22/03/24
+
+### Descrição:
 
 Uma estação ferroviária é composta por uma ou mais linhas ferroviárias. Ao criar uma estação
 ferroviária, obrigatoriamente devem ser definidas as linhas ferroviárias que irão compor sua
@@ -24,6 +33,9 @@ Para testar seu código-fonte, crie um programa executável que demonstre a cr
 estações ferroviárias com uma linha ferroviária interligando as duas. Esta linha deve conter um
 trem, formado por uma locomotiva e três vagões.
 
-_TO DO:_
+## _TO DO:_
 
-- Classe RecursosFerroviários.
+- Classe RecursosFerroviários [✓]
+- Criação de ArrayLists [ ]
+- Classe de teste [ ]
+- Formatação da data (OPCIONAL) [ ]

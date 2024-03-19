@@ -2,8 +2,8 @@ public class Locomotiva{
     /* Uma locomotiva é descrita por um número de série, capacidade de tração e comprimento,
 também podendo ser opcionalmente informados durante a sua criação.*/
     private String serial;
-    private float comprimento;
-    private float tracao;
+    private double comprimento;
+    private double tracao;
 
     public void setSerial(String serial){
         this.serial = serial;
@@ -13,19 +13,19 @@ também podendo ser opcionalmente informados durante a sua criação.*/
         return serial;
     }
     
-    public void setComprimento(float comprimento){
+    public void setComprimento(double comprimento){
         this.comprimento = comprimento;
     }
     
-    public float getComprimento(){
+    public double getComprimento(){
         return comprimento;
     }
     
-    public void setTracao(float tracao){
+    public void setTracao(double tracao){
         this.tracao = tracao;
     }
     
-    public float getTracao(){
+    public double getTracao(){
         return tracao;
     }
     
