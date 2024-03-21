@@ -25,8 +25,8 @@ public String getTipo(){
     return tipo;
 }
 
-public void setCapacidadeCarga(double carga){
-    this.capacidadecarga = capacidadeCarga;
+public void setCapacidadeCarga(double capacidadeCarga){
+    this.capacidadeCarga = capacidadeCarga;
 }
 
 public double getCapacidadeCarga(){

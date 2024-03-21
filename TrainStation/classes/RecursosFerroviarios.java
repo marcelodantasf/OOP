@@ -7,7 +7,7 @@ public class RecursosFerroviarios {
         this.vagao = vagao;
     }
 
-    public vagao getVagao(){
+    public Vagao getVagao(){
         return vagao;
     }
 
@@ -15,7 +15,7 @@ public class RecursosFerroviarios {
         this.locomotiva = locomotiva;
     }
 
-    public locomotiva getLocomotiva(){
+    public Locomotiva getLocomotiva(){
         return locomotiva;
     }
 
@@ -23,7 +23,7 @@ public class RecursosFerroviarios {
         this.trem = trem;
     }
 
-    public trem getTrem(){
+    public Trem getTrem(){
         return trem;
     }
 }

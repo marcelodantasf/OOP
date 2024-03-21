@@ -1,4 +1,5 @@
 import java.util.Date;
+import java.util.ArrayList;
 
 public class Trem{
     /*Um trem é descrito por
@@ -11,10 +12,10 @@ ter mais do que 150 recursos (vagões e locomotivas).*/
     private Estacao originStation;
     private Estacao destinationStation;
     private int qtdRecursos;
-    private ArrayList <RecursosFerroviarios> resources = new ArrayList <>();
+    private ArrayList <RecursosFerroviarios> resources = new ArrayList <RecursosFerroviarios>();
 
-    public void setPrefixo(String compEngates){
-        this.compEngates = compEngates;
+    public void setPrefixo(String prefixo){
+        this.prefixo = prefixo;
     }
 
     public String getPrefixo(){
@@ -49,7 +50,7 @@ ter mais do que 150 recursos (vagões e locomotivas).*/
         this.qtdRecursos = qtdRecursos;
     }
 
-    public int getQtdRecursos (){
+    public int getQtdRecursos(){
         return qtdRecursos;
     }
 
@@ -66,10 +67,7 @@ ter mais do que 150 recursos (vagões e locomotivas).*/
     public String toString(){
         String str = "";
         str += "Prefixo do trem: " + this.prefixo + 
-        "\nTipo do vagão: " + this.tipo + 
-        "\nCapacidade de carga: " + this.capacidadeCarga +
-        "\nComprimento das testeiras: " + this.compTesteiras +
-        "\nComprimento dos engates: " + this.compEngates +
+        "\nData de Formação: " + this.dataFormacao +
         "\nEstação de origem: " + this.originStation +
          "\nEstação de destino: " + this.destinationStation +
         "\nQuantidade de recursos ferroviários: " + this.qtdRecursos;

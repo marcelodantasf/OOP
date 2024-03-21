@@ -1,10 +1,14 @@
-public class Linhas{
+import java.util.ArrayList;
+
     /* Uma linha ferroviária tem um número (que a diferencia de outra linha
 dentro da mesma estação), uma extensão em metros e uma descrição*/
+
+public class Linhas{
+
     private int numero;
     private double extensao;
     private String desc;
-    private ArrayList <RecursosFerroviarios> resources = new ArrayList <>();
+    private ArrayList <RecursosFerroviarios> resources = new ArrayList <RecursosFerroviarios>();
     private RecursosFerroviarios vagao;
     private RecursosFerroviarios trem;
     private RecursosFerroviarios locomotiva;
