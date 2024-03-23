@@ -59,7 +59,7 @@ public class Linhas {
     public String toString() {
         String str = "";
         str += "Número da linha: " + this.numero +
-                "\nExtensão: " + this.extensao + "km" +
+                "\nExtensão: " + this.extensao + " km" +
                 "\nDescrição: " + this.desc +
                 "\nQuantidade de recursos ferroviários: " + this.resources.size();
         return str;

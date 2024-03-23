@@ -70,7 +70,8 @@ public class Trem {
 
     public String toString() {
         String str = "";
-        str += "Prefixo do trem: " + this.prefixo +
+        str += "DADOS DO TREM: " +
+                "\nPrefixo: " + this.prefixo +
                 "\nData de Formação: " + this.dataFormacao +
                 "\nEstação de origem: " + this.originStation +
                 "\nEstação de destino: " + this.destinationStation +

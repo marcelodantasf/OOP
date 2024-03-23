@@ -1,46 +1,48 @@
-public class Locomotiva{
-    /* Uma locomotiva é descrita por um número de série, capacidade de tração e comprimento,
-também podendo ser opcionalmente informados durante a sua criação.*/
+public class Locomotiva {
+    /*
+     * Uma locomotiva é descrita por um número de série, capacidade de tração e
+     * comprimento,
+     * também podendo ser opcionalmente informados durante a sua criação.
+     */
     private String serial;
     private double comprimento;
     private double tracao;
 
-    public void setSerial(String serial){
+    public void setSerial(String serial) {
         this.serial = serial;
     }
-    
-    public String getSerial(){
+
+    public String getSerial() {
         return serial;
     }
-    
-    public void setComprimento(double comprimento){
+
+    public void setComprimento(double comprimento) {
         this.comprimento = comprimento;
     }
-    
-    public double getComprimento(){
+
+    public double getComprimento() {
         return comprimento;
     }
-    
-    public void setTracao(double tracao){
+
+    public void setTracao(double tracao) {
         this.tracao = tracao;
     }
-    
-    public double getTracao(){
+
+    public double getTracao() {
         return tracao;
     }
-    
-    public String toString(){
+
+    public String toString() {
         String str = "";
-        str += "Serial: " + this.serial + 
-        "\nComprimento: " + this.comprimento + 
-        "\nTração: " + this.tracao;
+        str += "Número de série: " + this.serial +
+                "\nComprimento: " + this.comprimento + " m" +
+                "\nCapacidade de tração: " + this.tracao + " kJ";
         return str;
     }
-    
-    Locomotiva(String serial, double comprimento, double tracao){
+
+    Locomotiva(String serial, double comprimento, double tracao) {
         this.serial = serial;
         this.comprimento = comprimento;
         this.tracao = tracao;
     }
 }
-
