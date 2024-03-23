@@ -36,6 +36,5 @@ trem, formado por uma locomotiva e três vagões.
 ## _TO DO:_
 
 - Classe RecursosFerroviários [✓]
-- Criação de ArrayLists [ ]
-- Classe de teste [ ]
-- Formatação da data (OPCIONAL) [ ]
+- Criação de ArrayLists [✓]
+- Classe de teste [✓]
