@@ -44,5 +44,11 @@ public class Estacao{
         return str;
     }
 
+    Estacao(String sigla, String desc, ArrayList<Linhas> linhas){
+        this.sigla = sigla;
+        this.desc = desc;
+        this.linhas = linhas;
+    }
+
 }
 

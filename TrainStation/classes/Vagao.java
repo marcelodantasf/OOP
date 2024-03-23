@@ -59,4 +59,12 @@ public String toString(){
         return str;
     }
 
+    Vagao(String serial, String tipo, double capacidadeCarga, double compTesteiras, double compEngates){
+        this.serial = serial;
+        this.tipo = tipo;
+        this.capacidadeCarga = capacidadeCarga;
+        this.compTesteiras = compTesteiras;
+        this.compEngates = compEngates;
+    }
+
 }

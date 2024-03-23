@@ -9,9 +9,9 @@ public class Linhas{
     private double extensao;
     private String desc;
     private ArrayList <RecursosFerroviarios> resources = new ArrayList <RecursosFerroviarios>();
-    private RecursosFerroviarios vagao;
-    private RecursosFerroviarios trem;
-    private RecursosFerroviarios locomotiva;
+    //private RecursosFerroviarios vagao;
+    //private RecursosFerroviarios trem;
+    //private RecursosFerroviarios locomotiva;
     
     public void setNumero(int numero){
         this.numero = numero;
@@ -58,4 +58,5 @@ public class Linhas{
         "\nQuantidade de recursos ferroviários: " + this.resources.size();
         return str;
     }
+
 }

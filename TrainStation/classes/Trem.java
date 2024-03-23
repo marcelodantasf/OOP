@@ -74,4 +74,11 @@ ter mais do que 150 recursos (vagões e locomotivas).*/
         return str;
     }
 
+    Trem(String prefixo, Date dataFormacao, Estacao originStation, Estacao destinationStation){
+        this.prefixo = prefixo;
+        this.dataFormacao = dataFormacao;
+        this.originStation = originStation;
+        this.destinationStation = destinationStation;
+    }
+
 }

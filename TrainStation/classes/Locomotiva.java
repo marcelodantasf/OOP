@@ -37,5 +37,10 @@ também podendo ser opcionalmente informados durante a sua criação.*/
         return str;
     }
     
+    Locomotiva(String serial, double comprimento, double tracao){
+        this.serial = serial;
+        this.comprimento = comprimento;
+        this.tracao = tracao;
+    }
 }
 
