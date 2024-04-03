@@ -51,7 +51,7 @@ public class Veiculo {
             int newEstadoTanque = (this.tanqueVeiculo.getEstadoTanque()) - combustivelConsumido;
             this.tanqueVeiculo.setEstadoTanque(newEstadoTanque);
             System.out.println("Acelerando!");
-            System.out.println("Novo estado do tanque: " + this.tanqueVeiculo.getEstadoTanque());
+            System.out.println("Novo estado do tanque: " + this.tanqueVeiculo.getEstadoTanque() + "L");
         }
 
         if (this.tanqueVeiculo.getEstadoTanque() <= this.tanqueVeiculo.getReserva())
@@ -65,20 +65,4 @@ public class Veiculo {
                 "\nProprietário do veículo: " + this.proprietario;
         return str;
     }
-
-    /*
-     * public static void main(String[] args) {
-     * Pessoa carlos = new Pessoa("Carlos", "123.456.789-01");
-     * Tanque tanqueCarro = new Tanque(250, 60, 15);
-     * Veiculo carro = new Veiculo(150, "OIJ2865", carlos, tanqueCarro);
-     * 
-     * System.out.println(carro.toString());
-     * System.out.println(tanqueCarro.toString());
-     * System.out.println("");
-     * carro.acelerar();
-     * carro.acelerar();
-     * 
-     * REMOVA O COMENTARIO PARA TESTAR O FUNCIONAMENTO DO VEICULO
-     * }
-     */
 }

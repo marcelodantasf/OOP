@@ -36,14 +36,9 @@ public class Tanque {
         return qtdCombustivel;
     }
 
-    public void abastecer(int qtdCombustivel) {
-        this.estadoTanque += qtdCombustivel;
-        System.out.println("Abastecido com sucesso!");
-        System.out.println("Reserva de gasolina no tanque: " + this.estadoTanque);
-    }
-
     public void completaTanque() {
         this.estadoTanque = this.capacidade;
+        System.out.println("Tanque reabastecido!");
     }
 
     Tanque(int capacidade, int estadoTanque, int reserva) {

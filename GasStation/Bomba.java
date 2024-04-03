@@ -16,6 +16,13 @@ public class Bomba {
         System.out.println("Operação adicionada com sucesso!");
     }
 
+    public String getNumOp() {
+        String str;
+        str = "";
+        str += operacoes.size();
+        return str;
+    }
+
     public String toString() {
         String str = "";
         str += "Quantidade de operações realizadas pela bomba: " +

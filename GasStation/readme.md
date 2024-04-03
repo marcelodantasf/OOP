@@ -14,5 +14,5 @@ Crie um diagrama entidade-relacionamento e um programa em JAVA que represente o 
 
 ### To do:
 
-- Implementar métodos get e set da classe Operação
-- Classe Teste.java
+- Implementar métodos get e set da classe Operação ✅
+- Classe Teste.java ✅
