@@ -12,7 +12,4 @@
 
 Crie um diagrama entidade-relacionamento e um programa em JAVA que represente o ambiente descrito.
 
-### To do:
-
-- Implementar métodos get e set da classe Operação ✅
-- Classe Teste.java ✅
+### Acesse o repositório no [GitHub](https://github.com/marcelodantasf/OOP/tree/main/GasStation)!
